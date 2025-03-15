@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="openModal">
+      <div class="button"><button>open</button></div>
+
+    </div>
+    <dialog type="modal">
+    <div class="container">
+      <!-- <div class="button"><button>hover!</button></div> -->
+      <!-- <div id="ball"></div>
+    </div>
+    <div id="ball2">Ball2</div> -->
+    <div class="dialog-text">
+    <div class="text1">Look at me!</div>
+    <div class="text2">I am a pop up dialog!!</div>
+      <div class="close-button"><button>close</button></div>
+</div>
+</dialog>
+<script src="main.js"></script>
+  </body>
+</html>
+
+<!--
+
+This is known as the configuration stage where we define our animation properties on the #ball element, and it is only the first half of defining an animation. In our example, we have:
+
+An animation-duration of two seconds. This means that it will take two seconds for the #ball element to complete one animation cycle.
+
+Defined the animation-name to be “change-color” which is essential for the @keyframes section coming up next. This is just a custom name that is not a particular CSS value. We could have called it “pineapples” if we so wished, but for our purposes “change-color” suits us well.
+
+Set the animation-iteration-count to infinite, which means this animation will run forever. You could set this to 1, 2, or as many iterations as you wish.
+
+Set the animation-direction to alternate. This property decides if our animation should alternate direction on the completion of one cycle, or reset to the start point and repeat itself. Here it means that the #ball will smoothly change back to its original color instead of “jumping” straight back to red. -->
